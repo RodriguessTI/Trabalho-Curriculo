@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo Tiago Rodrigues</title>
+    <style>
+        body {
+            background-color: 	#E0FFFF;
+        }
+        div{
+            background-color: 	#F5FFFA;
+            border: 2px solid gray;
+            padding: 14px;
+            width: 60%;
+            margin: 0 auto;
+        }
+        fieldset{
+            margin-bottom: 16px;
+        }
+        legend{
+            background-color: #F0FFF0;
+            padding: 3px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        img{
+            border-radius: 50%;
+            margin-bottom: 12px;
+        }
+        span{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="eu.jpg" alt="2x2" width="140" height="140">
+        <h1> Tiago Rodrigues de Araujo </h1>
+        <p><span>Endereço:</span> Rua ficticia N° 000 Bairro Fantasia.</p>
+        <p><span>Telefone</span> (85) 99999-9999</p>
+        <fieldset>
+            <legend>Dados gerais</legend>
+            <ul>
+                <li><span> de nascimento:</span> 01/01/2022</li>
+                <li><span>Email:</span> misterM@uol.com</li>
+                <li><span> Estado civil:</span> solteiro</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Formação acadêmica</legend>
+            <ul>
+                <li><span>Cursando:</span> Análise e desenvolvimento de sistemas- Faculdade CDL</li>
+                <li><span>Curso:</span>Técnico em informática - CEPEP</li>
+                <li><span>Profissionalizante</span> em Hardware - SENAC</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Experiencia profissional</legend>
+            <ul>
+                <li><span>Operador de telemarketing</span> - liq</li>
+                <li><span>Estágio:</span> TI</li>
+            </ul>
+        </fieldset>
+    </div>
+</body>
+</html>
